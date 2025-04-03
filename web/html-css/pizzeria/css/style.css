@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-destak : #fda400;
+    --color-footer : #232323;
+    --color-item-text : #eaeaea;
+}
+
+h2 {
+    margin: 2rem 0;   
+    font-size: 3rem;
+}
+
+#home {
+    height: 100vh;
+    background-image: url('../img/image-header.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#home > .main-nav {
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    text-align: center;
+}
+
+#home > .main-nav li{
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+#home > .main-nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+.welcome {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.welcome h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: normal;
+    font-size: 4rem;
+    text-shadow: 2px 2px 5pc black;
+}
+
+.welcome p {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;    
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 5pc black;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.welcome a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--color-destak);
+}
+
+.welcome a:hover {
+    color: var(--color-destak);
+    background-color: #000;
+}
+
+main {
+    margin: 2rem 3rem;
+    text-align: center;
+}
+
+.item-menu {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background-color: var(--color-item-text);
+    text-align: left;
+    margin: 2rem;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.item-menu img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 400px;
+}
+
+.item-title {
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.item-description {
+    padding: 0.5rem;
+    font-size: 1.15rem;
+}
+
+#about-us {
+    height: 50vh;
+    background-image: url('../img/image-about-us.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 -3rem;
+}
+
+#about-us h2 {
+    color: white;
+    padding-top: 20vh;
+    margin-bottom: 2rem;
+}
+
+#about-us p {
+    color: white;
+    font-size: 1.7rem;
+}
+
+#contact p{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+#contact li{
+    display: inline-block;
+    width: 20vw;
+    vertical-align: top;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+#contact ul {
+    margin-bottom: 3rem;
+}
+
+.order-now {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--color-destak);
+}
+
+.order-now:hover {
+    color: var(--color-destak);
+    background-color: #000;
+}
+
+.footer {
+    margin-top: 4rem;
+    background-color: var(--color-footer);
+    color: var(--color-destak);
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
