@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let name = prompt("What's your full name ?")
+        window.document.body.innerHTML += `Your name : ${name} <br>`
+        
+        window.document.body.innerHTML += `Your name have the letters : ${name.length} <br>`
+        
+        window.document.body.innerHTML += `The second letter of your name is : ${name.charAt(1)} <br>`
+
+        window.document.body.innerHTML += `First Index of letter 'a' : ${name.indexOf('a')} <br>`
+
+        window.document.body.innerHTML += `The last 3 letters of your name : ${name.slice(-3)} <br>`
+
+        window.document.body.innerHTML += `The words of your name : ${name.split(' ')} <br>`
+
+        window.document.body.innerHTML += `Your name in upper case: ${name.toUpperCase()} <br>`
+
+        window.document.body.innerHTML += `Your name in upper case: ${name.toLowerCase()} <br>`
+    </script>
+</body>
+</html>
